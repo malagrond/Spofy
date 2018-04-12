@@ -21,8 +21,8 @@
                 </Grid.ColumnDefinitions>
                 <Image Source="{Binding Cover}" Grid.Column="0"></Image>
                 <StackPanel Orientation="Vertical" Margin="10" Grid.Column="1">
-                    <TextBlock Text="{Binding TrackName}" Foreground="{StaticResource ForegroundColor}" FontSize="13" TextOptions.TextRenderingMode="ClearType"/>
-                    <TextBlock Name="txtArtistName" Text="{Binding ArtistName}" Foreground="{StaticResource ForegroundColor}" FontSize="13" TextOptions.TextRenderingMode="ClearType"/>
+                    <TextBlock Text="{Binding TrackName}" Foreground="{StaticResource ForegroundColor}" FontSize="10" TextOptions.TextRenderingMode="ClearType"/>
+                    <TextBlock Name="txtArtistName" Text="{Binding ArtistName}" Foreground="{StaticResource ForegroundColor}" FontSize="10" TextOptions.TextRenderingMode="ClearType"/>
                 </StackPanel>
             </Grid>
         </Border>

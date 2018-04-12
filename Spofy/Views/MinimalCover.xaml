@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:views="clr-namespace:Spofy.Views"
              mc:Ignorable="d" 
-             Height="28" Width="120">
+             Height="28" Width="180">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -23,7 +23,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="{Binding Cover}" Grid.Column="0"></Image>
-                <StackPanel Orientation="Vertical" Margin="5" Grid.Column="1">
+                <StackPanel Orientation="Vertical" Margin="3" Grid.Column="1">
                     <TextBlock Text="{Binding TrackName}" Foreground="{StaticResource ForegroundColor}" FontSize="8" TextOptions.TextRenderingMode="ClearType"/>
                     <TextBlock Name="txtArtistName" Text="{Binding ArtistName}" Foreground="{StaticResource ForegroundColor}" FontSize="8" TextOptions.TextRenderingMode="ClearType"/>
                 </StackPanel>
